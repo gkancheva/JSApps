@@ -10,7 +10,6 @@ function startApp() {
     showHideMenuLinks();
     showView('viewHome');
 
-    $("#linkHome").click(showHomeView);
     $("#buttonLoginUser").click(loginUser);
     $("#linkHome").click(showHomeView);
     $("#linkLogin").click(showLoginView);
