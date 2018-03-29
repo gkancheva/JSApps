@@ -1,6 +1,6 @@
 const baseUrl = 'https://baas.kinvey.com/';
-const appKey = 'kid_B1GSDwsze';
-const appSecret = 'e988f792e83b49ab9929dc869632d5d6';
+const appKey = 'app-key';
+const appSecret = 'app-secret';
 const db = 'advertisements';
 const authHeaders = {
     Authorization: 'Basic ' + btoa(appKey + ':' + appSecret)
